@@ -29,8 +29,26 @@
             <a class="nav-link" href="#">Case Studies</a>
             </li>
         </ul>
+
+    <!-- Hamburger Menu -->
+        <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <p class="text-white">Home</p>
+            <p class="text-white">About Me</p>
+            <p class="text-white">Case Studies</p>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+      </div>
     </header>
+
 <section>
+
     <!-- Overview Section Bootstrap Col system -->
     <div class="container-fluid">
         <p class="sectionTitle">Overview</p>
@@ -145,9 +163,11 @@
     <p class="sectionTitle">Phase 3: Ideation</p>
     <div class="row">
         <div class="cardContainer col-lg-4 col-med-4 col-sm-12">
-            <img id="picture" src="Images/wireframe 1.jpeg" alt="wireframe">
+            <img class="picture" src="Images/wireframe 1.jpeg" alt="wireframe">
         </div> 
-        <div class="cardContainer col-lg-2 col-med-2 col-sm-12"></div> 
+        <div class="cardContainer col-lg-2 col-med-2 col-sm-12">
+            <img id="pictureArrow" src="Images/Arrow 2.png" alt="wireframe">
+        </div> 
         <div class="cardContainer col-lg-4 col-med-4 col-sm-12">
             <p class="description">
                 Each box from the user flow was made into a 
@@ -157,25 +177,111 @@
                 paired. 
             </p>
         </div> 
-    </div>
-    <div class="row">
-        <div class="cardContainer col-lg-3 offset-lg-4 col-med-3 offset-md-4 col-sm-12">
-            <img id="picture" src="Images/wireframe 2.jpeg" alt="wireframe">
+        <div class="cardContainer col-lg-4 offset-lg-6 col-med-4 col-sm-12">
+            <img id="picture1" src="Images/wireframe 2.jpeg" alt="wireframe">
         </div> 
     </div>
 </div>
 
+<!-- Prototyping Section Bootstrap Col system -->
+<div class="container-fluid">
+    <p class="sectionTitle">Phase 4: Prototyping</p>
+    <div class="row">
+        <div class="cardContainer col-lg-5 col-med-5 col-sm-12">
+            <p class="description">
+                The wireframe proposes how the user will be able to easily 
+                accomplish the task of finding great deals for travel 
+                accommodations and booking them. 
+        
+                Using the competitor analysis, I was able to combine good 
+                ideas and eliminate pain points.
+            </p>
+        </div> 
+        <div class="cardContainer col-lg-1 col-med-1 col-sm-12"></div>
+        <div class="cardContainer col-lg-5 col-med-5 col-sm-12">
+            <img class="picture" src="Images/flow.png" alt="UserFlow">
+        </div>
+    </div>
+    <div class="row justify-content-md-center">
+        <div class="cardContainer col-lg-8 col-med-8 col-sm-12">
+            <img class="picture" src="Images/prototype 1.png" alt="Lo-fi IT 1">
+        </div>
+    </div>
+</div>
 
+<!-- User Testing Section Bootstrap Col system -->
+<div class="container-fluid">
+    <p class="sectionTitle">Phase 5: User Testing</p>
+    <div class="row">
+        <div class="cardContainer col-lg-4 col-med-4 col-sm-12">
+            <img class="picture" src="Images/testing 2.png" alt="results">
+        </div>
+        <div class="cardContainer col-lg-3 col-med-3 col-sm-12">
+            <img class="picture" src="Images/user flow 1.2.png" alt="user flow">
+        </div>
+        <div class="cardContainer col-lg-4 col-med-4 col-sm-12">
+            <p class="description">
+                “Skip Login” option was added.
+                Favorites page added.
+                “Select to compare” buttons added.
+                Cleared up the search/ suggestion pages
+            </p>
+            <div class="cardContainer col-lg-4 col-med-4 col-sm-12">
+                <img id="pictureArrow2" src="Images/Arrow 3.png" alt="Arrow">
+            </div>
+            <div class="cardContainer col-lg-4 col-med-4 col-sm-12">
+                <img class="picture" src="Images/user flow 2.png" alt="user flow">
+        </div>
+    </div>
+    </div>
+    <div class="row justify-content-md-center">
+        <div class="cardContainer col-lg-8 col-med-8 col-sm-12">
+            <img class="picture" src="Images/final proto.png" alt="prototype">
+        </div>
+    </div>
+</div>
 
-
-
-
-
-
-
-
-
+<!-- Future Section Bootstrap Col system -->
+<div class="container-fluid">
+    <p class="sectionTitle">Phase 6: Future Opportunities</p>
+    <div class="row">
+        <div class="cardContainer col-lg-12 col-med-12 col-sm-12">
+            <p class="description">
+                The proto-person shaped the demographics of the people interviewed. The interview’s helped to determine the greatest goals 
+                and pain points of a user when it comes to planning trips.
+            </p>
+            <p class="description"> Focusing in on that information, user’s want viable secure options for places to stay that are well-priced but still meet their 
+                needs and don’t overly-compromise in either direction.
+            </p>
+            <p class="description"> The prototype meets the user needs by allowing them multiple options where they can filter for their price range, but also 
+                compare the places that intrigued them the most.
+            </p>
+            <p class="description"> The prototype could be improved by implementing active and inactive states for buttons. Specifically the main “Compare” 
+                button; inactive before any places are selected, and active afterward. Clearing up the back button and the pages the user is sent 
+                to would also be helpful. For example, when the user is on the Hotel Selection page, the flow back would depend on if the user 
+                came from the Favorites page, Compare page or the Search page.
+            </p>
+        </div>
+    </div>
+</div>
 </section>
+
+<!-- Footer -->
+<footer>
+    <h1 id="footerName">Carolyn Redford</h1>
+    <section class="footerConnect">
+        <button class="footerButton resumeIcon"><img class="footerIcons" src="/Images/resumeIcon.png"></button>
+        <button class="footerButton emailIcon"><img id="iconEmail" src="/Images/emailIcon.png"></button>
+        <button class="footerButton gitIcon"> <img class="footerIcons" src="Images/Github.png" atl="Github"> </button>
+            <button class="footerButton linkedIcon"> <img class="footerIcons" src="Images/linkedIn.png" alt="LinkedIn"> </button>
+    </section>
+    <div class="footerNav">
+        <p class="homeItemFoot">Home</p>
+        <p class="aboutItemFoot">About Me</p>
+        <p class="caseItemFoot">Case Studies</p>
+    </div>
+</footer>
+
 <!-- Javascript -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

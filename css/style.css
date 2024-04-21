@@ -22,6 +22,9 @@ header {
 .nav-link {
     color: black;
 }
+.pos-f-t {
+    visibility: hidden;
+}
 
 /* Overview section */
 section {
@@ -45,6 +48,8 @@ section {
 .picture {
     width: 100%;
     height: 100%;
+    padding: 20px;
+    margin: 1px;
  }
 
  /* Deliverables Section */
@@ -62,3 +67,74 @@ section {
 
     /* Nothing needed so far*/
 
+/* Ideation Section */
+#pictureArrow {
+    margin-top: 250px;
+}
+#picture1 {
+    margin-top: -500px;
+    width: 100%;
+}
+
+/* User Testing */
+#pictureArrow2 {
+
+}
+
+/*Footer*/
+
+footer {
+    opacity: 0.85;
+    background-color: #f2daac;
+    border-radius: 8% 8% 0% 0%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 44px 15px 35px 15px;
+ }
+ #footerName {
+    font-size: 64px;
+    font-family: "Josefin Slab"
+ }
+ .footerConnect {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 34px;
+    justify-items: end;
+    align-items: center;
+ }
+ .footerIcons {
+    height: 44px;
+    width: 44px;
+ }
+ #iconEmail {
+    width: 28px;
+ }
+ .footerButton {
+    background-color: #f1c84a;
+    border-radius: 10px;
+    width: 74px;
+    height: 74px;
+    cursor: pointer;
+ }
+ .footerNav {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: end;
+ }
+ .homeItemFoot,
+ .aboutItemFoot,
+ .caseItemFoot {
+    font: "Khula";
+    font-size: 24px;
+    padding-bottom: 41px;
+    margin:0;
+ }
+@media only screen and (max-width:1109px) {
+    .pos-f-t {
+        visibility: visible;
+    }
+    .nav {
+        visibility: hidden;
+    }
+}
